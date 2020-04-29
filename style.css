@@ -74,7 +74,13 @@ table {
     margin-bottom: 20px;
 }
 
-h1 {
+#heading {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#questionNumber {
     font-size: 50px;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
@@ -88,13 +94,33 @@ p {
     
 }
 
-button {
+#button1 {
     font-family: 'Orbitron', sans-serif;
     background-color: darkslategrey;
     color: whitesmoke;
 }
 
-a.button {
+#button2 {
+    font-family: 'Orbitron', sans-serif;
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+#button3 {
+    font-family: 'Orbitron', sans-serif;
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+#button4 {
+    font-family: 'Orbitron', sans-serif;
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+
+
+#highscoreButton {
     font-family: 'Orbitron', sans-serif;
     background-color: darkslategrey;
     color: whitesmoke;

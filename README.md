@@ -1,3 +1,13 @@
+<!--4/29-->
+I've finally been able to get the components of the multiple choice quiz - their 
+questions and answers - to render to the screen one after the other by using a 
+javascript function and without hard-coding the text into the HTML.  I've discarded
+the extra HTML question pages. Currently, my index.html file represents my Start
+Page and it links to the questions which are rendered on a second page.However, 
+i've not been able yet to achieve the functionalities required to demonstrate 
+compentence in adding event listeners so that a page loads only after the previous 
+question has been answered or in handling local storage by creating a high score page.  
+
 <!--4/26-->
 So far I've tried to recreate the functionality of the demo by making sure that all 
 the components seen in the slides are represented by HTML and CSS.  I broke it out 
