@@ -60,7 +60,7 @@ table {
     float: right;
 }
 
-.container {
+#container {
     clear: both;
     background-color: darkgrey;
     border-width: 10px;
