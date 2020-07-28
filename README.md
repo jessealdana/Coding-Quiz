@@ -7,7 +7,7 @@
 
 This app allows a user to interact with a multiple choice quiz composed in JavaScript.
 
-  https://github.com/jessealdana/EmployeeDirectory2
+  https://github.com/jessealdana/Coding-Quiz
 
  ## User Story
 
@@ -26,7 +26,7 @@ This app allows a user to interact with a multiple choice quiz composed in JavaS
 
 This app is deployed to GitHub Pages:
 
-https://jessealdana.github.io/EmployeeDirectory2/
+https://jessealdana.github.io/Coding-Quiz/
 
  ## Usage
 
