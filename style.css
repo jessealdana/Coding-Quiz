@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background-image: url("https://image.freepik.com/free-vector/background-matrix-style_88211-270.jpg");
 }
 ol, ul {
 	list-style: none;
@@ -58,20 +59,36 @@ table {
     margin-top: 10px;
     position: relative;
     float: right;
+    background-color: rgb(250, 250, 153);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(7, 99, 68);
+
 }
 
 #container {
     clear: both;
-    background-color: darkgrey;
+    background-image: linear-gradient(green, yellow);
+    border-style: solid;
     border-width: 10px;
-    border-color: darkslategrey;
+    border-color: rgb(7, 99, 68);
     position: relative;
-    height: 350px;
+    height: 450px;
     width: 600px;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#startButton {
+    text-align: center;
 }
 
 #heading {
@@ -87,43 +104,28 @@ table {
 }
 
 #questionBody {
-    font-size: 18px;
+    padding-top: 20px;
+    font-size: 24px;
     font-weight: 400;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     
 }
 
-#button1 {
+#choices {
+    text-align: center;
     font-family: 'Orbitron', sans-serif;
-    background-color: darkslategrey;
-    color: whitesmoke;
 }
 
-#button2 {
+#score {
+    text-align: center;
     font-family: 'Orbitron', sans-serif;
-    background-color: darkslategrey;
-    color: whitesmoke;
 }
-
-#button3 {
-    font-family: 'Orbitron', sans-serif;
-    background-color: darkslategrey;
-    color: whitesmoke;
-}
-
-#button4 {
-    font-family: 'Orbitron', sans-serif;
-    background-color: darkslategrey;
-    color: whitesmoke;
-}
-
-
 
 #highscoreButton {
     font-family: 'Orbitron', sans-serif;
-    background-color: darkslategrey;
-    color: whitesmoke;
+    background-color: whitesmoke;
+ 
 }
 
 h3 {
@@ -131,4 +133,42 @@ h3 {
     font-weight: 400;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
+}
+
+#end-screen {
+    font-size: 24px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.wrapper {
+    clear: both;
+    background-image: linear-gradient(yellow, green);
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(7, 99, 68);
+    position: relative;
+    height: 350px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#submit {
+    background-color: rgb(13, 158, 8);
+    color: whitesmoke
+}
+
+button {
+    font-family: 'Orbitron', sans-serif;
 }
